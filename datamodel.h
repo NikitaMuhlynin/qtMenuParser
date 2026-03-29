@@ -27,6 +27,11 @@ struct ActionSpec {
     QString command;
 };
 
+struct ActionRequest {
+    QString actionId;
+    QMap<QString, QVariant> parameters;
+};
+
 struct MenuNode {
     QString id;
     QString title;

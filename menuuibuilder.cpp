@@ -10,7 +10,7 @@
 #include <QMessageBox>
 
 MenuUIBuilder::MenuUIBuilder(QStackedWidget* stackedWidget)
-    : m_stackedWidget(stackedWidget) {}
+    : m_stackedWidget(stackedWidget), executor(stackedWidget) {}
 
 void MenuUIBuilder::build(const MenuNode& rootNode) {
     QWidget* rootPage = buildPage(rootNode);
@@ -68,25 +68,21 @@ QWidget* MenuUIBuilder::buildPage(const MenuNode& node, const QString& parentPag
             }
 
             QPushButton* actionButton = new QPushButton("Apply");
-            QObject::connect(actionButton, &QPushButton::clicked, [child, editors, this]() {
-                QString result = "Action: ";
-
-                if (child.action.has_value()) {
-                    result += child.action->id + "\n";
-                    result += "Command: " + child.action->command + "\n";
-                } else {
-                    result += "none\n";
+            QObject::connect(actionButton, &QPushButton::clicked, page, [this, child, editors]() {
+                if (!child.action.has_value()) {
+                    return;
                 }
 
-                result += "Parameters: \n";
+                ActionRequest request;
+                request.actionId = child.action->id;
 
                 for (const ParameterSpec& param : child.parameters) {
                     QWidget* editor = editors[param.name];
                     QVariant value = getEditorValue(editor, param.type);
-                    result += param.name + "=" + value.toString() + "\n";
+                    request.parameters[param.name] = value;
                 }
 
-                QMessageBox::information(nullptr, "Button clicked", result);
+                executor.execute(request);
             });
 
             layout->addWidget(actionButton);

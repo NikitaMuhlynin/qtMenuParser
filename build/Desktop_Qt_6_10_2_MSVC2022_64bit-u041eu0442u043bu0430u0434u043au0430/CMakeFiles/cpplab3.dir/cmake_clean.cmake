@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpplab3_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/cpplab3_autogen.dir/ParseCache.txt"
   "cpplab3_autogen"
+  "CMakeFiles/cpplab3.dir/actionexecutor.cpp.obj"
+  "CMakeFiles/cpplab3.dir/actionexecutor.cpp.obj.d"
   "CMakeFiles/cpplab3.dir/cpplab3_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/cpplab3.dir/cpplab3_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/cpplab3.dir/imenuparser.cpp.obj"

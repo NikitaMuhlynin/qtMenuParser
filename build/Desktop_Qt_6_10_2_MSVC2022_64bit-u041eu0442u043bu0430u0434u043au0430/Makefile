@@ -177,6 +177,30 @@ cpplab3_autogen\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpplab3_autogen.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cpplab3_autogen.dir\build
 .PHONY : cpplab3_autogen\fast
 
+actionexecutor.obj: actionexecutor.cpp.obj
+.PHONY : actionexecutor.obj
+
+# target to build an object file
+actionexecutor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpplab3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cpplab3.dir\actionexecutor.cpp.obj
+.PHONY : actionexecutor.cpp.obj
+
+actionexecutor.i: actionexecutor.cpp.i
+.PHONY : actionexecutor.i
+
+# target to preprocess a source file
+actionexecutor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpplab3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cpplab3.dir\actionexecutor.cpp.i
+.PHONY : actionexecutor.cpp.i
+
+actionexecutor.s: actionexecutor.cpp.s
+.PHONY : actionexecutor.s
+
+# target to generate assembly for a file
+actionexecutor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpplab3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cpplab3.dir\actionexecutor.cpp.s
+.PHONY : actionexecutor.cpp.s
+
 cpplab3_autogen\mocs_compilation.obj: cpplab3_autogen\mocs_compilation.cpp.obj
 .PHONY : cpplab3_autogen\mocs_compilation.obj
 
@@ -311,6 +335,9 @@ help:
 	@echo ... cpplab3_autogen
 	@echo ... cpplab3_autogen_timestamp_deps
 	@echo ... cpplab3
+	@echo ... actionexecutor.obj
+	@echo ... actionexecutor.i
+	@echo ... actionexecutor.s
 	@echo ... cpplab3_autogen/mocs_compilation.obj
 	@echo ... cpplab3_autogen/mocs_compilation.i
 	@echo ... cpplab3_autogen/mocs_compilation.s

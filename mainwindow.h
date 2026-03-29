@@ -16,7 +16,7 @@ public:
 private:
     QStackedWidget* m_stackedWidget;
     IMenuParser m_parser;
-    MenuUIBuilder* m_builder;
+    MenuUIBuilder m_builder;
 
     void loadMenu(const QString& filePath);
 };

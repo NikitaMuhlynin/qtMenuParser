@@ -433,6 +433,8 @@ cpplab3_autogen\timestamp: "C:\Program Files (x86)\Windows Kits\10\include\10.0.
   C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets.cmake \
   C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsVersionlessTargets.cmake \
   C:\Users\Nikita\Documents\QTproj\cpplab3\CMakeLists.txt \
+  C:\Users\Nikita\Documents\QTproj\cpplab3\actionexecutor.cpp \
+  C:\Users\Nikita\Documents\QTproj\cpplab3\actionexecutor.h \
   .qtcreator\cmake-helper\maintenance_tool_provider.cmake \
   .qtcreator\cmake-helper\package-manager.cmake \
   .qtcreator\cmake-helper\qtcreator-project.cmake \
@@ -708,6 +710,8 @@ C:\Qt\6.10.2\msvc2022_64\include\QtCore\qpair.h:
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\limits.h":
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\list":
+
+C:\Users\Nikita\Documents\QTproj\cpplab3\actionexecutor.cpp:
 
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets.cmake:
 
@@ -1322,6 +1326,8 @@ C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfig.cmake:
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsDependencies.cmake:
 
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsVersionlessTargets.cmake:
+
+C:\Users\Nikita\Documents\QTproj\cpplab3\actionexecutor.h:
 
 .qtcreator\cmake-helper\package-manager.cmake:
 

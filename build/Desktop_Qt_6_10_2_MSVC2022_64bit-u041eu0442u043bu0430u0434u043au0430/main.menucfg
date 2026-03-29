@@ -13,8 +13,8 @@
           "title": "Display",
           "type": "button",
           "parameters": [
-            { "name": "Brightness", "type": "int", "default": 50, "min": 0, "max": 100 },
-            { "name": "Fullscreen", "type": "bool", "default": true }
+            { "name": "Brightness", "type": "int", "default": 100, "min": 0, "max": 100 },
+            { "name": "Fullscreen", "type": "bool", "default": false }
           ],
           "action": {
             "id": "apply_display",

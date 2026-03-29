@@ -430,6 +430,8 @@ cpplab3_autogen/timestamp: \
 	C:/Qt/6.10.2/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
 	C:/Qt/6.10.2/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
 	C:/Users/Nikita/Documents/QTproj/cpplab3/CMakeLists.txt \
+	C:/Users/Nikita/Documents/QTproj/cpplab3/actionexecutor.cpp \
+	C:/Users/Nikita/Documents/QTproj/cpplab3/actionexecutor.h \
 	C:/Users/Nikita/Documents/QTproj/cpplab3/build/Desktop_Qt_6_10_2_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/.qtcreator/cmake-helper/maintenance_tool_provider.cmake \
 	C:/Users/Nikita/Documents/QTproj/cpplab3/build/Desktop_Qt_6_10_2_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/.qtcreator/cmake-helper/package-manager.cmake \
 	C:/Users/Nikita/Documents/QTproj/cpplab3/build/Desktop_Qt_6_10_2_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430/.qtcreator/cmake-helper/qtcreator-project.cmake \

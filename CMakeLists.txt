@@ -29,6 +29,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         mainwindow.h mainwindow.cpp
         main.menucfg
         actionexecutor.h
+        actionexecutor.cpp
 
 
     )

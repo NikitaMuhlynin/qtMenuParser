@@ -226,6 +226,7 @@ C:/Users/Nikita/Documents/QTproj/cpplab3/build/Desktop_Qt_6_10_2_MSVC2022_64bit-
   C:/Qt/6.10.2/msvc2022_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/6.10.2/msvc2022_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt/6.10.2/msvc2022_64/include/QtWidgets/qwidget.h \
+  C:/Users/Nikita/Documents/QTproj/cpplab3/actionexecutor.h \
   C:/Users/Nikita/Documents/QTproj/cpplab3/datamodel.h \
   C:/Users/Nikita/Documents/QTproj/cpplab3/imenuparser.h \
   C:/Users/Nikita/Documents/QTproj/cpplab3/menuuibuilder.h

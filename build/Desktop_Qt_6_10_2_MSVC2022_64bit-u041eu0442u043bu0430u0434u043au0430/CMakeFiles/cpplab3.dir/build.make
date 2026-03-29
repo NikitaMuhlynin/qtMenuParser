@@ -168,13 +168,34 @@ CMakeFiles\cpplab3.dir\mainwindow.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\cpplab3.dir\mainwindow.cpp.s /c C:\Users\Nikita\Documents\QTproj\cpplab3\mainwindow.cpp
 <<
 
+CMakeFiles\cpplab3.dir\actionexecutor.cpp.obj: CMakeFiles\cpplab3.dir\flags.make
+CMakeFiles\cpplab3.dir\actionexecutor.cpp.obj: C:\Users\Nikita\Documents\QTproj\cpplab3\actionexecutor.cpp
+CMakeFiles\cpplab3.dir\actionexecutor.cpp.obj: CMakeFiles\cpplab3.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Nikita\Documents\QTproj\cpplab3\build\Desktop_Qt_6_10_2_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cpplab3.dir/actionexecutor.cpp.obj"
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\cpplab3.dir\actionexecutor.cpp.obj.d --working-dir=C:\Users\Nikita\Documents\QTproj\cpplab3\build\Desktop_Qt_6_10_2_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430 --filter-prefix="Примечание: включение файла:  " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1441~1.341\bin\HostX64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\cpplab3.dir\actionexecutor.cpp.obj /FdCMakeFiles\cpplab3.dir\ /FS -c C:\Users\Nikita\Documents\QTproj\cpplab3\actionexecutor.cpp
+<<
+
+CMakeFiles\cpplab3.dir\actionexecutor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cpplab3.dir/actionexecutor.cpp.i"
+	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1441~1.341\bin\HostX64\x64\cl.exe > CMakeFiles\cpplab3.dir\actionexecutor.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Nikita\Documents\QTproj\cpplab3\actionexecutor.cpp
+<<
+
+CMakeFiles\cpplab3.dir\actionexecutor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cpplab3.dir/actionexecutor.cpp.s"
+	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1441~1.341\bin\HostX64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\cpplab3.dir\actionexecutor.cpp.s /c C:\Users\Nikita\Documents\QTproj\cpplab3\actionexecutor.cpp
+<<
+
 # Object files for target cpplab3
 cpplab3_OBJECTS = \
 "CMakeFiles\cpplab3.dir\cpplab3_autogen\mocs_compilation.cpp.obj" \
 "CMakeFiles\cpplab3.dir\main.cpp.obj" \
 "CMakeFiles\cpplab3.dir\imenuparser.cpp.obj" \
 "CMakeFiles\cpplab3.dir\menuuibuilder.cpp.obj" \
-"CMakeFiles\cpplab3.dir\mainwindow.cpp.obj"
+"CMakeFiles\cpplab3.dir\mainwindow.cpp.obj" \
+"CMakeFiles\cpplab3.dir\actionexecutor.cpp.obj"
 
 # External object files for target cpplab3
 cpplab3_EXTERNAL_OBJECTS =
@@ -184,13 +205,14 @@ cpplab3.exe: CMakeFiles\cpplab3.dir\main.cpp.obj
 cpplab3.exe: CMakeFiles\cpplab3.dir\imenuparser.cpp.obj
 cpplab3.exe: CMakeFiles\cpplab3.dir\menuuibuilder.cpp.obj
 cpplab3.exe: CMakeFiles\cpplab3.dir\mainwindow.cpp.obj
+cpplab3.exe: CMakeFiles\cpplab3.dir\actionexecutor.cpp.obj
 cpplab3.exe: CMakeFiles\cpplab3.dir\build.make
 cpplab3.exe: C:\Qt\6.10.2\msvc2022_64\lib\Qt6Widgetsd.lib
 cpplab3.exe: C:\Qt\6.10.2\msvc2022_64\lib\Qt6Guid.lib
 cpplab3.exe: C:\Qt\6.10.2\msvc2022_64\lib\Qt6Cored.lib
 cpplab3.exe: C:\Qt\6.10.2\msvc2022_64\lib\Qt6EntryPointd.lib
 cpplab3.exe: CMakeFiles\cpplab3.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Nikita\Documents\QTproj\cpplab3\build\Desktop_Qt_6_10_2_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable cpplab3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Nikita\Documents\QTproj\cpplab3\build\Desktop_Qt_6_10_2_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable cpplab3.exe"
 	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1941 --intdir=CMakeFiles\cpplab3.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1441~1.341\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\cpplab3.dir\objects1.rsp @<<
  /out:cpplab3.exe /implib:cpplab3.lib /pdb:C:\Users\Nikita\Documents\QTproj\cpplab3\build\Desktop_Qt_6_10_2_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\cpplab3.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:windows  C:\Qt\6.10.2\msvc2022_64\lib\Qt6Widgetsd.lib C:\Qt\6.10.2\msvc2022_64\lib\Qt6Guid.lib C:\Qt\6.10.2\msvc2022_64\lib\Qt6Cored.lib mpr.lib userenv.lib C:\Qt\6.10.2\msvc2022_64\lib\Qt6EntryPointd.lib shell32.lib d3d11.lib dxgi.lib dxguid.lib d3d12.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

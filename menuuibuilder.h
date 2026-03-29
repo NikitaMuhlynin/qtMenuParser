@@ -2,6 +2,7 @@
 #define MENUUIBUILDER_H
 
 #include "datamodel.h"
+#include "actionexecutor.h"
 
 #include <QWidget>
 #include <QStackedWidget>
@@ -17,6 +18,7 @@ public:
 private:
     QStackedWidget* m_stackedWidget;
     QMap<QString, QWidget*> m_pages;
+    ActionExecutor executor;
 
     QWidget* buildPage(const MenuNode& node, const QString& parentPageId = QString());
     QWidget* createParameterEditor(const ParameterSpec& param);
