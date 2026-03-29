@@ -4,6 +4,7 @@
 #include <QLabel>
 #include <QPushButton>
 #include <QSpinBox>
+#include <QSlider>
 #include <QCheckBox>
 #include <QLineEdit>
 #include <QMessageBox>
@@ -26,7 +27,7 @@ QWidget* MenuUIBuilder::buildPage(const MenuNode& node, const QString& parentPag
     layout->addWidget(titleLabel);
 
     if (!parentPageId.isEmpty()) {
-        QPushButton* backButton = new QPushButton("Назад");
+        QPushButton* backButton = new QPushButton("Back");
         QObject::connect(backButton, &QPushButton::clicked,
             [this, parentPageId]() {
                 if (m_pages.contains(parentPageId)) {
@@ -66,7 +67,7 @@ QWidget* MenuUIBuilder::buildPage(const MenuNode& node, const QString& parentPag
                 layout->addWidget(editor);
             }
 
-            QPushButton* actionButton = new QPushButton("Выполнить");
+            QPushButton* actionButton = new QPushButton("Apply");
             QObject::connect(actionButton, &QPushButton::clicked, [child, editors, this]() {
                 QString result = "Action: ";
 
@@ -102,13 +103,13 @@ QWidget* MenuUIBuilder::buildPage(const MenuNode& node, const QString& parentPag
 
 QWidget* MenuUIBuilder::createParameterEditor(const ParameterSpec& param) {
     if (param.type == "int") {
-        QSpinBox* spinBox = new QSpinBox();
+        QSlider* slider = new QSlider(Qt::Horizontal);
 
-        if (param.minValue.isValid()) spinBox->setMinimum(param.minValue.toInt());
-        if (param.maxValue.isValid()) spinBox->setMaximum(param.maxValue.toInt());
-        if (param.defaultValue.isValid()) spinBox->setValue(param.defaultValue.toInt());
+        if (param.minValue.isValid()) slider->setMinimum(param.minValue.toInt());
+        if (param.maxValue.isValid()) slider->setMaximum(param.maxValue.toInt());
+        if (param.defaultValue.isValid()) slider->setValue(param.defaultValue.toInt());
 
-        return spinBox;
+        return slider;
     }
 
     if (param.type == "bool") {
@@ -124,8 +125,8 @@ QWidget* MenuUIBuilder::createParameterEditor(const ParameterSpec& param) {
 
 QVariant MenuUIBuilder::getEditorValue(QWidget* editor, const QString& type) {
     if (type == "int") {
-        QSpinBox* spinBox = qobject_cast<QSpinBox*>(editor);
-        if (spinBox) return spinBox->value();
+        QSlider* slider = qobject_cast<QSlider*>(editor);
+        if (slider) return slider->value();
     }
 
     if (type == "bool") {

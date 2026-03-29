@@ -28,6 +28,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         menuuibuilder.h menuuibuilder.cpp
         mainwindow.h mainwindow.cpp
         main.menucfg
+        actionexecutor.h
 
 
     )

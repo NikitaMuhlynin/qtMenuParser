@@ -1,20 +1,20 @@
 {
   "id": "root",
-  "title": "Главное меню",
+  "title": "Main menu",
   "type": "menu",
   "children": [
     {
       "id": "settings",
-      "title": "Настройки",
+      "title": "Settings",
       "type": "submenu",
       "children": [
         {
           "id": "display",
-          "title": "Экран",
+          "title": "Display",
           "type": "button",
           "parameters": [
-            { "name": "brightness", "type": "int", "default": 50, "min": 0, "max": 100 },
-            { "name": "fullscreen", "type": "bool", "default": true }
+            { "name": "Brightness", "type": "int", "default": 50, "min": 0, "max": 100 },
+            { "name": "Fullscreen", "type": "bool", "default": true }
           ],
           "action": {
             "id": "apply_display",
@@ -25,7 +25,7 @@
     },
     {
       "id": "about",
-      "title": "О программе",
+      "title": "About",
       "type": "button",
       "action": {
         "id": "show_about",

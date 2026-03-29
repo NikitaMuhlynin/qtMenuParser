@@ -3,18 +3,16 @@
 
 #include "datamodel.h"
 #include <QString>
-#include <QJsonObject>
+#include <istream>
 
 class IMenuParser
 {
 public:
     MenuNode parseFile(const QString& filePath);
-
-private:
-    MenuNode parseNode(const QJsonObject& obj);
-    ParameterSpec parseParameter(const QJsonObject& obj);
-    ActionSpec parseAction(const QJsonObject& obj);
-    NodeType parseNodeType(const QString& typeStr);
 };
+
+std::istream& operator>>(std::istream& in, ParameterSpec& param);
+std::istream& operator>>(std::istream& in, ActionSpec& act);
+std::istream& operator>>(std::istream& in, MenuNode& node);
 
 #endif // IMENUPARSER_H

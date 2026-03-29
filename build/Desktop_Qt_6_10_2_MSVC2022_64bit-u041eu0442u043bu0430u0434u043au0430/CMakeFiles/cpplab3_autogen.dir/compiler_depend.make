@@ -67,6 +67,7 @@ cpplab3_autogen\timestamp: "C:\Program Files (x86)\Windows Kits\10\include\10.0.
   "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cstring" \
   "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\functional" \
   "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\initializer_list" \
+  "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream" \
   "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\iterator" \
   "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\limits" \
   "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\limits.h" \
@@ -95,7 +96,6 @@ cpplab3_autogen\timestamp: "C:\Program Files (x86)\Windows Kits\10\include\10.0.
   "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\version" \
   "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\yvals.h" \
   "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\yvals_core.h" \
-  C:\Qt\6.10.2\msvc2022_64\include\QtCore\QJsonObject \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\QList \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\QMap \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\QString \
@@ -123,9 +123,6 @@ cpplab3_autogen\timestamp: "C:\Program Files (x86)\Windows Kits\10\include\10.0.
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qbytearrayalgorithms.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qbytearraylist.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qbytearrayview.h \
-  C:\Qt\6.10.2\msvc2022_64\include\QtCore\qcalendar.h \
-  C:\Qt\6.10.2\msvc2022_64\include\QtCore\qcborcommon.h \
-  C:\Qt\6.10.2\msvc2022_64\include\QtCore\qcborvalue.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qchar.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qcheckedint_impl.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qcompare.h \
@@ -140,7 +137,6 @@ cpplab3_autogen\timestamp: "C:\Program Files (x86)\Windows Kits\10\include\10.0.
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qcontiguouscache.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qdarwinhelpers.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qdatastream.h \
-  C:\Qt\6.10.2\msvc2022_64\include\QtCore\qdatetime.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qdebug.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qendian.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qexceptionhandling.h \
@@ -157,14 +153,9 @@ cpplab3_autogen\timestamp: "C:\Program Files (x86)\Windows Kits\10\include\10.0.
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qiodevicebase.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qiterable.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qiterator.h \
-  C:\Qt\6.10.2\msvc2022_64\include\QtCore\qjsondocument.h \
-  C:\Qt\6.10.2\msvc2022_64\include\QtCore\qjsonobject.h \
-  C:\Qt\6.10.2\msvc2022_64\include\QtCore\qjsonparseerror.h \
-  C:\Qt\6.10.2\msvc2022_64\include\QtCore\qjsonvalue.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qlatin1stringview.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qline.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qlist.h \
-  C:\Qt\6.10.2\msvc2022_64\include\QtCore\qlocale.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qlogging.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qmalloc.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qmap.h \
@@ -185,7 +176,6 @@ cpplab3_autogen\timestamp: "C:\Program Files (x86)\Windows Kits\10\include\10.0.
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qprocessordetection.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qrect.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qrefcount.h \
-  C:\Qt\6.10.2\msvc2022_64\include\QtCore\qregularexpression.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qscopedpointer.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qscopeguard.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qset.h \
@@ -231,9 +221,7 @@ cpplab3_autogen\timestamp: "C:\Program Files (x86)\Windows Kits\10\include\10.0.
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qtversionchecks.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qtypeinfo.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qtypes.h \
-  C:\Qt\6.10.2\msvc2022_64\include\QtCore\qurl.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qutf8stringview.h \
-  C:\Qt\6.10.2\msvc2022_64\include\QtCore\quuid.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qvariant.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qvarlengtharray.h \
   C:\Qt\6.10.2\msvc2022_64\include\QtCore\qversiontagging.h \
@@ -613,8 +601,6 @@ C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersion.
 
 "C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\CMakeCommonCompilerMacros.cmake":
 
-C:\Qt\6.10.2\msvc2022_64\include\QtCore\quuid.h:
-
 "C:\Program Files\CMake\share\cmake-4.1\Modules\Compiler\MSVC.cmake":
 
 C:\Qt\6.10.2\msvc2022_64\include\QtGui\qfontmetrics.h:
@@ -654,8 +640,6 @@ C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersionImpl.cm
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qmetatype.h:
 
 "C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CheckFlagCommonConfig.cmake":
-
-C:\Qt\6.10.2\msvc2022_64\include\QtCore\qjsonparseerror.h:
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cstddef":
 
@@ -704,6 +688,10 @@ C:\Qt\6.10.2\msvc2022_64\include\QtGui\qwindowdefs_win.h:
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qprocessordetection.h:
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\initializer_list":
+
+C:\Qt\6.10.2\msvc2022_64\include\QtCore\qbytearrayalgorithms.h:
+
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\istream":
 
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreAdditionalTargetInfo.cmake:
 
@@ -783,10 +771,6 @@ C:\Qt\6.10.2\msvc2022_64\include\QtCore\qlatin1stringview.h:
 
 "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\yvals_core.h":
 
-C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigExtras.cmake:
-
-C:\Qt\6.10.2\msvc2022_64\include\QtCore\QJsonObject:
-
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets-debug.cmake:
 
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\QList:
@@ -847,8 +831,6 @@ C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake:
 
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qbytearray.h:
 
-C:\Qt\6.10.2\msvc2022_64\include\QtCore\qbytearrayalgorithms.h:
-
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qbytearraylist.h:
 
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets-relwithdebinfo.cmake:
@@ -856,16 +838,6 @@ C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets-relwithdebinfo.c
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qobjectdefs_impl.h:
 
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qbytearrayview.h:
-
-C:\Qt\6.10.2\msvc2022_64\include\QtGui\qtguiexports.h:
-
-C:\Qt\6.10.2\msvc2022_64\include\QtCore\qcalendar.h:
-
-C:\Qt\6.10.2\msvc2022_64\include\QtCore\qcborcommon.h:
-
-C:\Qt\6.10.2\msvc2022_64\include\QtCore\qhashfunctions.h:
-
-C:\Qt\6.10.2\msvc2022_64\include\QtCore\qcborvalue.h:
 
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qcheckedint_impl.h:
 
@@ -907,8 +879,6 @@ C:\Qt\6.10.2\msvc2022_64\include\QtCore\qdarwinhelpers.h:
 
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qdatastream.h:
 
-C:\Qt\6.10.2\msvc2022_64\include\QtCore\qdatetime.h:
-
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qdebug.h:
 
 C:\Qt\6.10.2\msvc2022_64\include\QtWidgets\qstackedwidget.h:
@@ -939,27 +909,13 @@ C:\Qt\6.10.2\msvc2022_64\include\QtCore\qglobalstatic.h:
 
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qhash.h:
 
+C:\Qt\6.10.2\msvc2022_64\include\QtCore\qhashfunctions.h:
+
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qiterator.h:
-
-C:\Qt\6.10.2\msvc2022_64\include\QtCore\qjsondocument.h:
-
-C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiVersionlessAliasTargets.cmake:
-
-C:\Qt\6.10.2\msvc2022_64\include\QtCore\qjsonobject.h:
-
-C:\Qt\6.10.2\msvc2022_64\include\QtCore\qjsonvalue.h:
 
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qline.h:
 
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qlist.h:
-
-C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
-
-C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigVersionImpl.cmake:
-
-C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6\QtPublicCMakeEarlyPolicyHelpers.cmake:
-
-C:\Qt\6.10.2\msvc2022_64\include\QtCore\qlocale.h:
 
 .qtcreator\cmake-helper\maintenance_tool_provider.cmake:
 
@@ -998,10 +954,6 @@ C:\Qt\6.10.2\msvc2022_64\include\QtCore\qoverload.h:
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qpoint.h:
 
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qrefcount.h:
-
-C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets.cmake:
-
-C:\Qt\6.10.2\msvc2022_64\include\QtCore\qregularexpression.h:
 
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Gui\Qt6QSvgPluginConfig.cmake:
 
@@ -1123,8 +1075,6 @@ C:\Qt\6.10.2\msvc2022_64\include\QtCore\qtversion.h:
 
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qtypeinfo.h:
 
-C:\Qt\6.10.2\msvc2022_64\include\QtCore\qurl.h:
-
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qutf8stringview.h:
 
 C:\Qt\6.10.2\msvc2022_64\include\QtCore\qvariant.h:
@@ -1162,6 +1112,8 @@ C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersionI
 C:\Qt\6.10.2\msvc2022_64\include\QtGui\qpolygon.h:
 
 C:\Qt\6.10.2\msvc2022_64\include\QtGui\qregion.h:
+
+C:\Qt\6.10.2\msvc2022_64\include\QtGui\qtguiexports.h:
 
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets-debug.cmake:
 
@@ -1211,6 +1163,12 @@ C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConf
 
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6\QtPublicAppleHelpers.cmake:
 
+C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
+
+C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigVersionImpl.cmake:
+
+C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6\QtPublicCMakeEarlyPolicyHelpers.cmake:
+
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake:
 
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake:
@@ -1246,6 +1204,8 @@ C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6\QtPublicTestHelpers.cmake:
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6\QtPublicToolHelpers.cmake:
 
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6\QtPublicWindowsHelpers.cmake:
+
+C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigExtras.cmake:
 
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Core\Qt6CoreConfigVersion.cmake:
 
@@ -1284,6 +1244,8 @@ C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiPlugins.cmake:
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginConfig.cmake:
 
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiTargets-debug.cmake:
+
+C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Gui\Qt6GuiVersionlessAliasTargets.cmake:
 
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Gui\Qt6QGifPluginTargets-relwithdebinfo.cmake:
 
@@ -1350,6 +1312,8 @@ C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsConfigVersionImpl.cmake:
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsDependencies.cmake:
 
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets-debug.cmake:
+
+C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsTargets.cmake:
 
 C:\Qt\6.10.2\msvc2022_64\lib\cmake\Qt6Widgets\Qt6WidgetsVersionlessAliasTargets.cmake:
 

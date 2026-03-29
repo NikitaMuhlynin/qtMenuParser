@@ -73,8 +73,8 @@ clean: CMakeFiles\cpplab3_autogen.dir\clean
 # Target rules for target CMakeFiles/cpplab3.dir
 
 # All Build rule for target.
-CMakeFiles\cpplab3.dir\all: CMakeFiles\cpplab3_autogen_timestamp_deps.dir\all
 CMakeFiles\cpplab3.dir\all: CMakeFiles\cpplab3_autogen.dir\all
+CMakeFiles\cpplab3.dir\all: CMakeFiles\cpplab3_autogen_timestamp_deps.dir\all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpplab3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cpplab3.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpplab3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\cpplab3.dir\build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Nikita\Documents\QTproj\cpplab3\build\Desktop_Qt_6_10_2_MSVC2022_64bit-u041eu0442u043bu0430u0434u043au0430\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target cpplab3"

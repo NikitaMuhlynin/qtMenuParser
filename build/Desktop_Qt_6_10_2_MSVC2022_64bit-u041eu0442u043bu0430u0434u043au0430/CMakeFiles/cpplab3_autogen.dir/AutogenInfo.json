@@ -346,6 +346,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/Nikita/Documents/QTproj/cpplab3/actionexecutor.h",
+			"MU",
+			"EWIEGA46WW/moc_actionexecutor.cpp",
+			null
+		],
+		[
 			"C:/Users/Nikita/Documents/QTproj/cpplab3/datamodel.h",
 			"MU",
 			"EWIEGA46WW/moc_datamodel.cpp",
